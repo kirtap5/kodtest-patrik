@@ -1,0 +1,13 @@
+<template name = "form">
+        <form class="form">
+            <h2>Select amount of colors:</h2>
+                <select name="amount">
+                    {{ #each options }}
+                        <option value="{{adjust this }}">{{adjust this }}</option>
+                    {{/each }}                
+             </select>
+             <div>
+            <input type="submit" value="Submit" />
+            </div>
+        </form>
+</template>

@@ -1,0 +1,11 @@
+<template name="list">
+    <h1 class="headline" style="text-align: center;">Code test</h1>
+
+    {{> form options = numberOfCards }}
+    
+    <!-- place the cards here -->
+    {{#each colors}}
+         {{> card props = this }}
+      {{/each}}
+</template>
+

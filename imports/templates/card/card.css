@@ -1,0 +1,57 @@
+.card {
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh; 
+    background: #f3e5f5;
+}
+
+.title {
+    text-align: center;
+    padding: 2vh 0px;
+}
+
+.sample{
+    height: 7vh;
+    width: 100%;
+}
+
+.showcase{
+    width: 20%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 70vw;
+        height: 20vh;
+    }
+    .title {
+        padding: 1vh 0px;
+        font-size: 4em;
+    }  
+    .sample{
+        height: 9vh;
+    }
+    .showcase{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 50vw;
+        height: 30vh;
+    }
+    .title {
+        padding: 1vh 0px;
+        font-size: 4em;
+    }
+    .sample{
+        height: 9vh;
+    }
+    .showcase{
+        width: 40%;
+    }
+}

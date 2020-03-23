@@ -1,0 +1,75 @@
+.form {
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh; 
+    background: #f3e5f5;
+    text-align: center;
+    padding: .5em;
+}
+
+.form select{
+    width: 3em;
+    height: 2em;
+    margin-top: 2em;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.form input[type = submit]{
+    background-color: #4a525a;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 8px 20px;
+    margin: 8px;
+}
+.form input:hover{
+    background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 70vw;
+        height: 60vh;
+        padding: .5em;
+    }
+    .form h2{
+        font-size: 2.5em;
+    }
+
+    .form select{
+        width: 6em;
+        height: 4em;
+        margin-top: 0em;
+        font-size: 2em;
+    }
+
+    .form input[type = submit]{
+        font-size: 5em;
+        padding: 18px 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .form {
+        width: 50vw;
+        height: 50vh;
+        padding: .5em;
+    }
+    .form h2{
+        font-size: 3em;
+    }
+    .form select{
+        width: 3em;
+        height: 2em;
+        margin-top: 0em;
+        font-size: 2em;
+    }
+    .form input[type = submit]{
+        font-size: 2em;
+        padding: 18px 30px;
+    }
+}
